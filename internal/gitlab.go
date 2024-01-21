@@ -153,7 +153,7 @@ func (s *GitLab) fetchCommitPage(
 			Page:    page,
 		},
 		Since: gitlab.Time(since),
-		All:   gitlab.Bool(true),
+		All:   gitlab.Bool(false),
 	}
 
 	comms, resp, err := s.gitlabClient.Commits.ListCommits(projectID, opt, gitlab.WithContext(ctx))
