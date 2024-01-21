@@ -14,7 +14,7 @@ linters-settings:
     disable-dec-order-check: false
     disable-init-func-first-check: false
   gci:
-    local-prefixes: github.com/alexandear/import-gitlab-commits
+    local-prefixes: github.com/Ithanil/import-gitlab-commits
   goconst:
     min-len: 2
     min-occurrences: 2

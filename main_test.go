@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/alexandear/import-gitlab-commits/test"
+	"github.com/Ithanil/import-gitlab-commits/test"
 )
 
 func TestExecute(t *testing.T) {

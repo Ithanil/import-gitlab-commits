@@ -1,4 +1,4 @@
-module github.com/alexandear/import-gitlab-commits
+module github.com/Ithanil/import-gitlab-commits
 
 go 1.21
 

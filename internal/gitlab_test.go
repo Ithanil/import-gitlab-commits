@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/alexandear/import-gitlab-commits/test"
+	"github.com/Ithanil/import-gitlab-commits/test"
 )
 
 func TestService_hasContributionsByUser(t *testing.T) {
